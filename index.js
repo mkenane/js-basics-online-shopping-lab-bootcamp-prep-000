@@ -50,7 +50,6 @@ function total() {
 
 function removeFromCart(crappyItem) {
 var itemsArray = []
-var cart =  [{"mango":32}, {"nuts": 53}, {"tomato":31}, {"pickles": 14}]
 for (var i = 0; i < cart.length; i++) {
 itemsArray.push(Object.keys(cart[i])[0])
 }
