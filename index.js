@@ -55,11 +55,17 @@ for (var i = 0; i < cart.length; i++) {
 itemsArray.push(Object.keys(cart[i])[0])
 }
 
+
 if (itemsArray.includes(crappyItem)) {
-  
+  var x = itemsArray.indexOf(crappyItem)
+ 	cart.splice(x, 1)
+  return cart
 }
-
-
+  
+else {
+console.log("That item is not in your cart")
+return cart
+  }
 }
 
 
