@@ -81,9 +81,9 @@ console.log(`Your total cost is $${runTotal}, which will be charged to the card 
 
 
 function placeOrder(creditCard) {
-
-if (creditCard === "") { 
-  console.log("Sorry, we don't have a credit card on file for you..")}
+ 
+if (creditCard === undefined) { 
+  console.log("Sorry, we don\'t have a credit card on file for you.")}
 
 else {
 var runTotal = total();
@@ -91,7 +91,6 @@ console.log(`Your total cost is $${runTotal}, which will be charged to the card 
 }
 
 }
-
 
  
 //The removeFromCart() function accepts one argument, the name of the item that should be removed.
