@@ -88,6 +88,7 @@ if (creditCard === undefined) {
 else {
 var runTotal = total();
 console.log(`Your total cost is $${runTotal}, which will be charged to the card ${creditCard}.`)
+cart.length = 0
 }
 
 }
