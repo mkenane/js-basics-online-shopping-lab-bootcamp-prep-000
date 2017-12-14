@@ -82,7 +82,7 @@ console.log(`Your total cost is $${runTotal}, which will be charged to the card 
 
 function placeOrder(creditCard) {
 var x = creditCard 
-if (x === "") { 
+if (x == "") { 
   console.log("Sorry, we don't have a credit card on file for you..")}
 
 else {
