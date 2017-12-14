@@ -78,6 +78,21 @@ console.log(`Your total cost is $${runTotal}, which will be charged to the card 
 }
 
 }
+
+
+function placeOrder(creditCard) {
+var x = creditCard 
+if (x === "") { 
+  console.log("Sorry, we don't have a credit card on file for you..")}
+
+else {
+var runTotal = total();
+console.log(`Your total cost is $${runTotal}, which will be charged to the card ${creditCard}.`)
+}
+
+}
+
+
  
 //The removeFromCart() function accepts one argument, the name of the item that should be removed.
 // If the cart does not contain a matching item, the function should print out That item is not in your cart. and return the unchanged cart.
